@@ -17,9 +17,9 @@ public class Aplicacion {
     public static void main(String[] args) {
 
         Persona p1 = new Persona();
-        Persona p2 = new Persona("JOSSELIN CONLAGO","20");
+        Persona p2 = new Persona("DANIELA GUALLI","19");
         Cliente c1 = new Cliente();
-        Cliente c2 = new Cliente("0981633398");
+        Cliente c2 = new Cliente("0992462559");
 
         System.out.println("El cliente: " + p2.getNombre());
         System.out.println("De: " + p2.getEdad() + " Años de Edad");
